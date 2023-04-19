@@ -38,7 +38,7 @@
     "lint": "eslint \"**/*.{jsx,tsx,js}\"",
     "lint:fix": "eslint \"**/*.{jsx,tsx,js}\" --fix --color",
     "prepare": "husky install",
-    "start": "react-scripts start",
+    "start": "react-scripts --openssl-legacy-provider start",
     "test": "react-scripts test"
   },
   "eslintConfig": {
