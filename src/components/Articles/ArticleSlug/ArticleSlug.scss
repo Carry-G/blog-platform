@@ -1,0 +1,21 @@
+.card-wrapper {
+  &.slug {
+    margin-bottom: 20px;
+  }
+}
+.tags {
+  &.slug {
+    margin-bottom: 16px;
+  }
+}
+.bnts-user {
+  display: flex;
+  > button {
+    margin-right: 16px;
+  }
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+}

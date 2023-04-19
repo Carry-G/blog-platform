@@ -1,0 +1,46 @@
+.wrapper {
+  &.creat-article {
+    max-width: 938px;
+  }
+}
+
+.dynamic-delete-button {
+  width: 136px;
+  position: relative;
+  color: #999;
+  font-size: 24px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.dynamic-delete-button:hover {
+  color: #777;
+}
+.dynamic-delete-button[disabled] {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+.input-tag {
+  max-width: 300px;
+  margin-right: 18px;
+}
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+.button-add {
+  width: 136px;
+}
+.prob {
+  margin-bottom: 5px;
+  width: 470px;
+}
+.prob:nth-last-child(2) {
+  margin-right: 0;
+}
+.prob.ant-form-item:last-of-type {
+  margin-top: 0;
+}
+.bnt-send {
+  width: 319px;
+}

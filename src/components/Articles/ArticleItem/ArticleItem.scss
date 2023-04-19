@@ -1,0 +1,71 @@
+.articl-item {
+  margin-bottom: 26px;
+  max-height: 140px;
+}
+
+.ant-card {
+  margin: 0 5px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  font-family: "Inter";
+  font-weight: 400;
+  .ant-card-body {
+    padding: 15px;
+    &::before {
+      display: none;
+    }
+    &::after {
+      display: none;
+    }
+  }
+
+  .ant-card-meta {
+    flex-direction: row-reverse;
+  }
+  .ant-card-meta-avatar {
+    margin-left: 12px;
+  }
+  .ant-card-meta-detail > div:not(:last-child) {
+    height: 28px;
+    margin: 0;
+    font-weight: 400;
+  }
+}
+.card-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.title-left {
+  display: flex;
+  align-items: center;
+  .link {
+    font-size: 20px;
+    margin-right: 13px;
+    color: #1890ff;
+  }
+}
+.tags {
+  display: block;
+}
+.tag {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+  padding: 2px 5px;
+  margin-right: 4px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 12px;
+  line-height: 15px;
+}
+.ant-avatar-image {
+  width: 46px;
+  height: 46px;
+}
+.meta-right {
+  height: 46px;
+}
+.ant-typography.ant-typography-secondary {
+  color: rgba(0, 0, 0, 0.75);
+  font-size: 12px;
+  line-height: 22px;
+}
