@@ -34,7 +34,7 @@ const ArticlSlug = () => {
 
   useEffect(() => {
     fetchSlugArticl(parans.slug);
-  }, []);
+  }, [parans]);
 
   const articlTagList = () => {
     if (articl.tagList !== null && articl.tagList.length) {

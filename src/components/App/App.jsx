@@ -8,8 +8,9 @@ import ApiBlog from "../../services/apiServices";
 
 import AppRouter from "./AppRouter/AppRouter";
 
+const api = new ApiBlog();
+
 const App = () => {
-  const api = new ApiBlog();
   const [isAuth, setIsAuth] = useState(false);
   const [loading, setLoading] = useState(false);
   const valueU = useMemo(

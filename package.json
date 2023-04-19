@@ -14,7 +14,6 @@
     "babel-preset-env": "^1.7.0",
     "date-fns": "^2.29.3",
     "eslint-config-prettier": "^8.8.0",
-    "eslint-plugin-react-hooks": "^4.6.0",
     "lodash": "^4.17.21",
     "lodash-webpack-plugin": "^0.11.6",
     "markdown-to-jsx": "^7.2.0",
@@ -74,6 +73,7 @@
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.1",
     "prettier": "2.8.7"

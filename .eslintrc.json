@@ -30,6 +30,8 @@
     "indent": ["error", 2,{ "VariableDeclarator": 1 }],
     "react/jsx-uses-react": "error",
     "react/jsx-uses-vars": "error",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn", 
     "prettier/prettier": "error",
     "linebreak-style": [0, "unix"],
     "no-param-reassign": [2, { "props": false }],

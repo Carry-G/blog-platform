@@ -10,7 +10,6 @@ const api = new ApiBlog();
 
 const SingIn = () => {
   const { setIsAuth } = useContext(AuthContex);
-  console.log(AuthContex);
   const [error, setError] = useState(false);
   const [errorMessage, setErrorMessage] = useState({});
   const onFinish = (values) => {
